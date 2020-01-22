@@ -7,3 +7,7 @@ Original project:
 
 * http://osxdaily.com/2013/12/06/snow-terminal-mac-os-x-command/
 * https://www.youtube.com/watch?v=mvvYlyYjuBw
+
+The app can be run with a sample command:
+
+    docker run -it --rm burke9077/terminal-snow
