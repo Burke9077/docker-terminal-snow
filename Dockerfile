@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-# Install ruby
+# Install ruby and remove apt cache when done
 RUN apt-get update && \
   apt-get -qqy install ruby && \
   rm -rf /var/lib/apt/lists/*
